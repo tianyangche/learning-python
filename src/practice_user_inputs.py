@@ -1,9 +1,11 @@
 # message = input('Tell me something, and I will repeat it back to you: ')
 # print(message)
 
-while True:
-        s = raw_input('Enter something : ')
-        if s == 'quit':
-                break
-        print('Length of the string is', len(s))
-print('Done')
+
+# s = raw_input('Enter something:')
+# print 'what you just input is :' + s
+
+age = raw_input('Enter your age:')
+age = int(age)
+if age >= 18:
+    print 'You are an adult.'

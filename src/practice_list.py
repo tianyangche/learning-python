@@ -6,12 +6,14 @@ bicycles[0] = 'ofo'
 
 bicycles.append('mobi')
 
+# add element to the end of the list
 auto_cars = []
 auto_cars.append('honda')
 auto_cars.append('toyota')
 
 print auto_cars
 
+# add an element at some specific position.
 auto_cars.insert(1, 'mazda')
 print len(auto_cars)
 
